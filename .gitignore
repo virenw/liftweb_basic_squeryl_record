@@ -12,6 +12,13 @@ console.devmode.log
 
 lift_proto.db.trace.db
 
+//Mac files
 .DS_Store
 
+//exclude bat files/scripts
 *.bat
+
+//intellij files
+.idea*
+
+.projectFilesBackup

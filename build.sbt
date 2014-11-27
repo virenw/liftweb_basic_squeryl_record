@@ -20,7 +20,7 @@ scalacOptions ++= Seq("-deprecation", "-unchecked")
 env in Compile := Some(file("./src/main/webapp/WEB-INF/jetty-env.xml") asFile)
 
 libraryDependencies ++= {
-  val liftVersion = "2.6-RC1"
+  val liftVersion = "2.6-M2"
   Seq(
     "net.liftweb"       %% "lift-webkit"            % liftVersion        % "compile",
     "net.liftweb"       %% "lift-mapper"            % liftVersion        % "compile",
